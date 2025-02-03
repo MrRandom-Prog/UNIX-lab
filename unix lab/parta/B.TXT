@@ -1,0 +1,8 @@
+Directory before
+a.txt           db.txt          prog10.sh       prog12.sh       prog3.sh        prog5.sh        prog7.sh        prog9.sh
+b.txt           prog1.sh        prog11.sh       prog2.sh        prog4.sh        prog6.sh        prog8.sh        sh
+a.txt doent exit
+b.txt doent exit
+a.txt           db.txt          prog10.sh       prog12.sh       prog3.sh        prog5.sh        prog7.sh        prog9.sh
+b.txt           prog1.sh        prog11.sh       prog2.sh        prog4.sh        prog6.sh        prog8.sh        sh
+prince-khatri@Princes-MacBook-Air parta %   

@@ -1,0 +1,18 @@
+// Write a C/C++ program to implement UNIX commands ln, mv, rm commands using APIs.
+#include<iostream>
+#include<unistd.h>
+using namespace std;
+int main(int argc,char* argv[]){
+    if( argc != 2){
+        cout<<"Usage: ./a.out <source> <dest>";
+        exit(EXIT_FAILURE);
+    }
+    if(unlink(argv[1])==-1){
+        perror("UnLink error");
+        return 0;
+    }
+    else{
+        cout<<"file removed Sucessfully";
+    }
+    return 0;
+}
